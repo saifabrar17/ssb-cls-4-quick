@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #f2f2f2;
+}
+
+.wrapper {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-content {
+    border-bottom: 2px solid #EEF0F3;
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+    margin-left: 50px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li:hover {
+    background-color: #66b8ff;
+
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    float: left;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-right: 25px;
+    transition: 0.3s;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 3px;
+}
+
+.content-header {
+    text-align: center;
+}
+
+.content-header h2 {
+    margin-top: 30px;
+    color: #0F2656;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.content-header h3 {
+    color: #008AFF;
+    font-weight: 800;
+    font-size: 60px;
+    margin-top: -10px;
+}
+
+.content-header p {
+    margin-left: 150px;
+    margin-right: 150px;
+    color: #1E3360;
+}
+
+.content-img {
+    text-align: center;
+}
+
+.jobs {
+    overflow: hidden;
+    align-content: center;
+}
+
+.jobs-left {
+    float: left;
+    text-align: right;
+    width: 49%;
+}
+
+.jobs-left h1 {
+    color: #F15767;
+    font-size: 50px;
+    margin-right: 10px;
+}
+
+.jobs-left p {
+    color: #1E3360;
+    margin-right: 10px;
+}
+
+.jobs-right {
+    float: left;
+    width: 40%;
+}
+
+.jobs-right h3 {
+    color: #0F2656;
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+.creative {
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.creative-1 {
+    padding: 15px;
+    background-color: #FEEBED;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.creative-1 img {
+    display: block;
+    margin: auto;
+}
+
+.creative-1 h5 {
+    color: #0F2656;
+    font-size: 15px;
+}
+
+.creative-1 p {
+    color: #0F2656;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.changecolor {
+    background-color: #EBF9F4;
+}
+
+.footer {
+    text-align: center;
+    background-color: #008AFF;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.footer p {
+    padding-top: 15px;
+    color: #86D0FF;
+    font-size: 17px;
+}
+
+.footer p span {
+    color: #F4FDFF;
+}
